@@ -1,0 +1,8 @@
+[project]
+name = "DisQover"
+version = "0.0.1"
+authors = [
+  { name="Chia-Tso Lai", email="chiatso.lai@jos-quantum.de" },
+]
+description = "A package for simulation, visualization, and optimization of various quantum random walk models."
+readme = "README.md"

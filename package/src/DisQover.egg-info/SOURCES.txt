@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/DisQover/DisQover.py
+src/DisQover/__init__.py
+src/DisQover.egg-info/PKG-INFO
+src/DisQover.egg-info/SOURCES.txt
+src/DisQover.egg-info/dependency_links.txt
+src/DisQover.egg-info/top_level.txt
