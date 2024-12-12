@@ -6,3 +6,8 @@ authors = [
 ]
 description = "A package for simulation, visualization, and optimization of various quantum random walk models."
 readme = "README.md"
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
