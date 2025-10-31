@@ -1,13 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "DisQover"
 version = "0.0.1"
+description = "A package for simulation, visualization, and optimization of various quantum random walk models."
+readme = "README.md"
 authors = [
   { name="Chia-Tso Lai", email="chiatso.lai@jos-quantum.de" },
 ]
-description = "A package for simulation, visualization, and optimization of various quantum random walk models."
-readme = "README.md"
+ requires-python = ">=3.8"
 
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "scipy",
+    "qiskit",
+    "qiskit-aer",
+    "ipywidgets",
+    "ipython",
+    "pylatexenc",
+]
 
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+[tool.setuptools.packages.find]
+where = ["src"]
+
