@@ -11,5 +11,5 @@ run `pip install .`.
 see `notebooks/DisQover_demo.ipynb`.
 
 ## Galleries
-![Alt text](tests/new_QRW_vs_CRW_std.gif)
-![Alt text](tests/QRW_simulation_time.png)
+![Alt text](pictures/new_QRW_vs_CRW_std.gif)
+![Alt text](pictures/QRW_simulation_time.png)
