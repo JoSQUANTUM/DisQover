@@ -4,12 +4,12 @@ This package provides an efficient way of simualting Quantum Random Walks(QRWs) 
 
 ## Installation
 
-run `pip install .`
+run `pip install .`.
 
 ## Theories & Examples
 
-see `notebooks/DisQover_demo.ipynb`
+see `notebooks/DisQover_demo.ipynb`.
 
-
+## Galleries
 ![Alt text](tests/new_QRW_vs_CRW_std.gif)
 ![Alt text](tests/QRW_simulation_time.png)
